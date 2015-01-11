@@ -1,0 +1,80 @@
+<template name="navigation">
+    <div class="navbar-wrapper" style="margin-top:20px">
+        <div class="container">
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+                    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown" id="liProduct" style="cursor:pointer">
+                                <a id="aProduct" href="{{pathFor 'home'}}" class="dropdown-toggle" data-toggle="dropdown">Ürünler <b class="caret"></b></a>
+                                <ul class="dropdown-menu" style="min-width:770px">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <ul class="multi-column-dropdown">
+                                                <li><a href="{{pathFor 'catipenceresi'}}" id="aCatiPenceresiMainMenu" style="font-weight:bold">Roto Çatı Pencereleri</a></li>
+                                                <li><a href="" id="acatipenceresiazuro">Azuro Panoramik Tavan</a></li>
+                                                <li><a href="" id="acatipenceresidesingoR8">i8 Roto Comfort</a></li>
+                                                <li><a href="" id="acatipenceresidesignor45">Roto Designo R45</a></li>
+                                                <li><a href="">Üstten Pivot Pencere</a></li>
+                                                <li><a href="">Designo R8 Açı-Derece</a></li>
+                                                <li><a href="">Designo R6 Salıncak Pencere</a></li>
+                                                <li><a href="">Designo R6 Tam Otomatik</a></li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <ul class="multi-column-dropdown">
+                                                <li><a href="{{pathFor 'catimerdiveni'}}" style="font-weight:bold">Roto Çatı Merdivenleri</a></li>
+                                                <li><a href="">Çatı Merdiveni Elektro</a></li>
+                                                <li><a href="">Çatı Merdiveni Exclusiv </a></li>
+                                                <li><a href="">Çatı Merdiveni Mini</a></li>
+                                                <li><a href="">Çatı Merdiveni Norm</a></li>
+                                                <li><a href="">Çatı Merdiveni Esca</a></li>
+                                                <li><a href="">Çatı Merdiveni Cadet</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <ul class="multi-column-dropdown">
+                                                <li><a href="" style="font-weight:bold">Güneş Enerji Sistemleri </a></li>
+                                                <li><a href="">Roto SunRoof</a></li>
+                                                <li><a href="">Roto Photovoltaik</a></li>
+                                                <li><a href="">Roto Pur Photovoltaik</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </ul>
+                            </li>
+                            <li><a>Servisler</a></li>
+                            <li id="liReferans"><a href="" id="aReferans">Referanslar</a></li>
+                            <li id="liBasinda"><a id="aBasinda">Basında</a></li>
+                            <li id="liKariyer"><a id="aKariyer">Kariyer</a></li>
+                            <li id="liIletisim"><a href="" id="aIletisim">İletişim</a></li>
+                            <li class="dropdown">
+                                <a href="" class="dropdown-toggle" data-toggle="dropdown">Bayilik <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="">Yapı Kimyasal</a></li>
+                                    <li><a href="">Yangın Söndürme</a></li>
+
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">Kurumsal</li>
+                                    <li><a href="">Hakkımızda</a></li>
+                                    <li><a href="">Füzyon</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
