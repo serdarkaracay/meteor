@@ -1,23 +1,14 @@
 if (Meteor.isClient) {
-  // counter starts at 0
-  Session.setDefault("counter", 0);
-
-  Template.hello.helpers({
-    counter: function () {
-      return Session.get("counter");
-    }
-  });
-
-  Template.hello.events({
-    'click button': function () {
-      // increment the counter when button is clicked
-      Session.set("counter", Session.get("counter") + 1);
-    }
-  });
+  
+  Template.catipenceresi.setTitle = function () {
+  document.title = 'Çatı Penceresi - Roto Çatı Penceresi';}
+  
+   Template.catimerdiveni.setTitle = function () {
+  document.title = 'Çatı Merdiveni - Roto Çatı Merdiveni';}
+  
+  
+    Template.home.setTitle = function () {
+  document.title = 'çatı penceresi - çatı merdiveni -güneş enerji sistemleri';}
+ 
 }
 
-if (Meteor.isServer) {
-  Meteor.startup(function () {
-    // code to run on server at startup
-  });
-}

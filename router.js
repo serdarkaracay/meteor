@@ -4,6 +4,12 @@ Router.configure({
 Router.map(function(){
     this.route('home',{path:'/'});
     this.route('catipenceresi',{path:'/cati-penceresi'});
+    this.route('catipenceresi1',{path:'/cati-penceresi1'});
+    this.route('catipenceresi2',{path:'/cati-penceresi2'});
+    this.route('catipenceresi3',{path:'/cati-penceresi3'});
+    this.route('catipenceresi4',{path:'/cati-penceresi4'});
+    this.route('catipenceresi5',{path:'/cati-penceresi5'});
+    this.route('catipenceresi6',{path:'/cati-penceresi6'});
+    this.route('catipenceresi7',{path:'/cati-penceresi7'});
     this.route('catimerdiveni',{path:'/cati-merdiveni'});
-
 })
