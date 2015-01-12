@@ -12,4 +12,14 @@ Router.map(function(){
     this.route('catipenceresi6',{path:'/cati-penceresi6'});
     this.route('catipenceresi7',{path:'/cati-penceresi7'});
     this.route('catimerdiveni',{path:'/cati-merdiveni'});
+    this.route('catimerdiveni1',{path:'/cati-merdiveni1'});
+    this.route('catimerdiveni2',{path:'/cati-merdiveni2'});
+    this.route('catimerdiveni3',{path:'/cati-merdiveni3'});
+    this.route('catimerdiveni4',{path:'/cati-merdiveni4'});
+    this.route('catimerdiveni5',{path:'/cati-merdiveni5'});
+    this.route('catimerdiveni6',{path:'/cati-merdiveni6'});
+    this.route('gunesenerji',{path:'/gunesenerji'});
+    this.route('gunesenerji1',{path:'/gunesenerji1'});
+    this.route('gunesenerji2',{path:'/gunesenerji2'});
+    this.route('gunesenerji3',{path:'/gunesenerji3'});
 })
